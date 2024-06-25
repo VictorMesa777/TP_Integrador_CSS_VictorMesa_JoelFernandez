@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+body{
+    width: 1200px;
+    background-color: rgba(223, 223, 133, .4);
+    margin: auto;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(166, 0, 0);
+    margin-bottom: 100px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding-right: 150px;
+}
+header ul a{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    text-decoration: none;   
+    color: white;
+}
+header ul a:hover{
+    background-color: rgba(113, 0, 0, .5);
+}
+header img{
+    padding-left: 150px;
+}
+footer{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+footer p{
+    margin-top: 15px;
+}
+footer svg{
+    height: 30px;
+    margin-inline: 10px;
+}
+#productos{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+    background-color: wheat;
+    border-radius: 10px;
+}
+#productos h1{
+    padding-top: 15px;
+}
+#contprod{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.prodmain{
+    width: 300px;
+}
+.imgmain{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 15px;
+    outline: solid rgb(166, 0, 0) 5px;
+    outline-style: dashed;
+}
+#productos img{
+    height: 250px;
+}
+#secnews{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+}
+#noticias{
+    display: flex;
+    justify-content: space-around;
+}
+.news{
+    width: 380px;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 10px;
+}
+.textnews{
+    margin: auto;
+    width: 350px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.textnews p{
+    font-size: .8em;
+}
+.textnews h3{
+    font-size: 1em;
+}
+.news a{
+    text-decoration: none;
+    color: black;
+}
+.news img{
+    margin: 15px 0 15px 0;
+    width: 350px;
+}
+#tim{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+.timates h3{
+    text-align: center;
+}
+.timates img{
+    height: 250px;
+    border: solid rgb(166, 0, 0) 5px;
+}
+hr{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(166, 0, 0);
+    margin: 0 auto 25px auto
+}
+#ads{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#ads img{
+    width: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: auto;
+}
+form input{
+    width: 400px;
+    height: 50px;
+    margin: 10px 0 10px 0;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+form a{
+    color: black;
+    text-decoration: none;
+}
+form a:hover{
+    color: rgb(166, 0, 0);
+}
+.submit{
+    width: 408px;
+    background-color: rgb(166, 0, 0);
+    color: white;
+    margin-bottom: 20px;
+}
+#register{
+    height: 650px;
+}
+#encuesta{
+    height: 600px;
+}
+#contencuesta{
+    text-align: center;
+}
+#contencuesta p{
+    margin-bottom: 30px;
+}
+label{
+    margin-bottom: 10px;
+}
+select{
+    height: 50px;
+    margin-bottom: 20px;
+}
+.pregunta2pos{
+    display: flex;
+    flex-direction: column;
+}
+.pregunta2{
+    height: 15px;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+#catalogo{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#catalogo a{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+.catalogimg{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#catalogo img{
+    height: 250px;
+}
+.catalogoitems{
+    width: 300px;
+}
